@@ -11,7 +11,7 @@ body {
 
 header h1,
 footer {
-	background-color: rgb(2, 2, 166);
+	background-color: green;
 	padding: 30px;
 }
 
@@ -20,36 +20,10 @@ footer {
 	color: white;
 }
 
-section:nth-of-type(1) ul {
-    padding-left:20px !important;
-    line-height: 1.5em;
-    /* color:red; */
-}
-
-section:nth-of-type(odd) {
-    background-color: rgb(237, 237, 237);
-}
-section:nth-of-type(even) {
-    background-color: white;
-}
 section {
-    overflow: auto;
+	margin: 5px;
 	padding: 20px;
-}
-section:nth-of-type(odd) img {
-    float: left;
-}
-section:nth-of-type(even) img {
-    float: right;
-}
-section img {
-    margin: 20px;
-    width:450px;
-}
-section p, section ul {
-    overflow: hidden;
-    margin: 20px 0px;
-    text-align: justify;
+	background-color: lightblue;
 }
 
 section p {
@@ -79,9 +53,6 @@ article p {
 	margin-bottom: 25px;
 }
 
-header {
-    text-align: center;
-}
 header nav {
 	padding: 10px;
 }
@@ -90,14 +61,12 @@ nav ul {
 	padding: 0;
 	background-color: white;
 	margin-left: 10px;
-    
 }
 
 nav ul li {
-	display: inline-block;
+	display: inline;
 	margin: 5px;
 	margin-right: 20px;
-    
 }
 
 footer p {
