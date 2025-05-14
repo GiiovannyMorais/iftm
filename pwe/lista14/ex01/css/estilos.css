@@ -1,0 +1,18 @@
+ h1 {
+    font-size: 25px;
+    font-family: verdana;
+    font-weight: bold;
+    letter-spacing: 4px;
+    color: green;
+    background-color: yellow;
+
+}
+p {
+    background-color: gray;
+    font-size: 18px;
+    color: green;
+    letter-spacing: 4px;
+    font-style: italic;
+    font-family: tahoma;
+    text-align: center;
+}
