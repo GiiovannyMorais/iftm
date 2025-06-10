@@ -1,0 +1,56 @@
+* {
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    background-color: black;
+    font-family: arial;
+}
+
+section { 
+    margin: auto;
+    width: 1200px;
+
+}
+.container  h2 {
+     background-color: rgb(20, 20, 103);
+     color: white;
+     padding: 20px;
+     text-align: center;
+
+}
+
+.container > div  {
+    display: flex;
+    
+  
+}
+
+.container > div > div{
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+}
+
+.container > div > div> div {
+   display: flex;
+   background-color: white;
+   margin: auto;
+   padding: 20px;
+   padding-top: 5px;
+}
+
+.container > div > div > div h3 {
+    font-size: 25px;
+    color: rgb(253, 88, 5);
+    margin: 50px 0px 10px 0px
+}
+
+.container > div > div > div p {
+    margin-bottom: 35px;
+    text-align: justify;
+    padding-right: 50px;
+    
+}
