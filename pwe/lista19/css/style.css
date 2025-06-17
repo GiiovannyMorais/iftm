@@ -1,0 +1,138 @@
+* {
+    box-sizing: border-box;
+    padding: 0px;
+    margin: 0px;
+    font-family: Arial; 
+}
+
+body {
+    background-color: rgb(30, 30, 30);
+}
+header {
+    width: 100%;
+    margin: auto;
+}
+
+header > div  {
+    display: flex;
+    background-color: black;
+    color: white;
+    padding: 20px;
+}
+header > div > div > p {
+    padding-top: 10px;
+}
+
+header > div > div  {
+    margin: auto;
+}
+
+
+header > nav {
+ background-color: rgb(24, 24, 141);
+} 
+
+header > nav > ul { 
+    list-style: none;
+    justify-content: center;
+    display: flex;
+    padding: 10px;
+}
+
+header > nav > ul > li  {
+    color: white;
+    padding: 30px ;
+     border-top: 1px solid transparent;
+    border-bottom: 1px solid transparent;
+   
+   
+}
+header > nav > ul li:hover {
+    border-bottom: 1px solid yellow;
+    border-top: 1px solid red;
+}
+
+.caixa1  {
+    width: 1200px;
+    margin: auto;
+    background-color: white;
+    padding: 30px;
+
+}
+
+.caixa1 > div {
+    display: flex;
+    flex-direction: row;
+}
+
+.caixa1 h2 {
+    color: red;
+    padding-bottom: 20px;
+}
+
+.caixa1 p {
+    text-align: justify;
+    line-height: 25px;
+    padding: 20px;
+}
+
+.caixa2  {
+    margin: auto;
+    margin-top: 10px;
+    background-color: white;
+    width: 1200px;
+    text-align: center;
+    padding: 30px;
+
+}
+
+.caixa2 > div  {
+    display: flex;
+    flex-direction: row;
+    line-height: 25px;
+}
+
+.caixa2 > div > div > h2 {
+    font-weight: bold;
+    color: blue;
+}
+
+.caixa2 > div > div > p {
+    text-align: justify;
+    padding: 15px;
+    font-weight: bold;
+}
+
+
+.caixa3 {
+    margin: auto;
+    margin-top: 10px;
+    padding: 20px;
+    background-color: gray;
+    width: 1200px;
+    
+
+}
+
+.caixa3 > div {
+    display: flex;
+    padding: 20px;
+    
+}
+.caixa3 > div > div {
+    margin: auto;
+}
+
+
+.caixa3 > div > div > ul {
+    line-height: 25px;
+}
+
+footer {
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+
