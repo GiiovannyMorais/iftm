@@ -1,0 +1,172 @@
+* {
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+ul {
+    justify-content: flex-end;
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    
+}
+
+
+ul li a {
+    color: rgb(46, 45, 45);
+    text-decoration: none;
+    display: block;
+    padding:20px;
+}
+
+
+ul li a:hover {
+    color: white;
+    background-color: rgb(35, 35, 35);
+}
+
+
+
+/* Final do Menu */
+
+.container > div{
+    font-size: 23px;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+.container > div h1 {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.container > div p {
+   font-size: medium;
+   padding-bottom: 20px;
+   text-align: center;
+}
+
+section img {
+    max-width: 100%;
+    height: auto;
+}
+ 
+.botao {
+  font-size: 20px;
+  padding: 20px 30px;
+  background-color: rgb(63, 63, 240);
+  color: white;
+  border: none;
+  text-decoration: none;
+}
+
+.botao:hover {
+  background-color: rgb(3, 3, 157);
+}
+
+
+.container2 {
+    text-align: center;
+}
+
+    section > div {
+    width: 1200px;
+    margin: auto;
+}
+
+.container2 > div {
+    display: flex;
+    flex-direction: row;
+    padding: 40px;
+}
+
+.container2 > div h3 {
+    color: red;
+    padding-bottom: 20px;
+}
+
+    section p {
+    text-align: justify;
+    padding: 20px;
+    line-height: 23px;
+}
+
+section:nth-of-type(odd) {
+    background-color: rgb(35, 35, 35);
+}
+.container3 > div > div {
+    color: white;
+    text-align: center;
+    padding: 40px;
+}
+
+.container3 h2 {
+    padding: 20px 0px;
+    padding-bottom: 40px;
+}
+
+.container4 > div {
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    padding: 50px;
+    gap: 30px;
+}
+ figcaption {
+    padding-top: 10px;
+    text-align: center;
+    font-weight: bold;
+    font-size: 24px;
+ }
+
+footer {
+    color: white;
+    background-color: black;
+    text-align: center;
+    padding: 50px;
+}
+
+@media screen and (max-width:768px) {
+
+ul {
+    text-align: center;
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+
+}
+
+
+ul li a {
+    color: rgb(46, 45, 45);
+    text-decoration: none;
+    display: block;
+    padding:10px;
+}
+
+
+ul li a:hover {
+    color: white;
+    background-color: rgb(47, 47, 47);
+}
+
+    .container > div h1 {
+    font-size: 20px;
+    }
+    .container > div > div:nth-of-type(2) {
+        padding-top: 10px;
+    }
+
+    .box  > div {
+        width: auto;
+        flex-direction: column;
+     }
+
+     
+}
