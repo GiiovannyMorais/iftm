@@ -30,8 +30,8 @@ header nav ul li a:hover {
 }
 section {
     background-color: white;
-    margin-bottom: 20px;
 }
+ 
 
 
 .container {
@@ -87,7 +87,7 @@ button:hover {
 footer {
     background-color: black;
 }
-   footer p {
+ footer p {
     color: white;
     text-align: center;
     padding: 20px;
@@ -105,6 +105,8 @@ footer {
     width: 1200px;
     margin: auto;
    }
+
+ 
    .container {
     padding: 30px;
    }
