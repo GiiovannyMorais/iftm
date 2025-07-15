@@ -1,0 +1,160 @@
+ * {
+    box-sizing: border-box;
+    padding: 0px;
+    margin: 0px;
+ }
+ body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(47, 46, 46);
+}
+
+header nav ul {
+    background-color: rgb(19, 19, 139);
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    list-style: none;
+
+}
+
+header nav ul li a {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    display: block;
+    padding:20px;
+}
+
+header nav ul li a:hover {
+    color: white;
+    background-color: yellow;
+}
+section {
+    background-color: white;
+    margin-bottom: 20px;
+}
+
+
+.container {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.box h2 { 
+    color: rgb(178, 116, 0);
+    padding-bottom: 20px;
+}
+.container p {
+    text-align: justify;
+    padding: 10px;
+}
+
+.container2 > div {
+    text-align: justify;
+    justify-items: center;
+    padding: 20px;
+}
+
+ .container2 div h3 {
+    text-align: center;
+   }
+
+.container2 div  > details {
+    color: orange;
+    text-align: justify;
+    padding-bottom: 10px;
+}
+.whatsapp div {
+    padding: 20px;
+}
+
+button {
+    padding: 20px 10px;
+    color: white;
+    background-color: rgb(7, 231, 7);
+    box-shadow: none;
+    margin: 20px;
+}
+
+button:hover {
+    background-color: green;
+}
+
+   .maps div {
+    padding: 20px;
+    
+   }
+footer {
+    background-color: black;
+}
+   footer p {
+    color: white;
+    text-align: center;
+    padding: 20px;
+   }
+
+
+ @media screen and (min-width: 1023px){
+    
+   header nav ul {
+     display: flex;
+     flex-direction: row;
+     justify-content: center;
+   }
+   section {
+    width: 1200px;
+    margin: auto;
+   }
+   .container {
+    padding: 30px;
+   }
+   .container > div {
+    display: flex;
+    flex-direction: row;
+   }
+   .container h2 {
+    color: blue;
+   }
+   .box h2 {
+    color: rgb(3, 25, 229);
+    padding-bottom: 20px;
+   }
+   .container2  {
+    display: flex;
+    flex-direction: row;
+    padding: 20px;
+   }
+
+   .whatsapp  {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 20px;
+    padding: 20px;
+   }
+
+   .maps div {
+    text-align: center;
+   }
+   .maps div p {
+    padding: 20px;
+   }
+
+   
+
+  
+
+  
+
+
+  
+
+
+
+   
+
+
+  
+
+
+ }
