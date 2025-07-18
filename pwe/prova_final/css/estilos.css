@@ -385,10 +385,7 @@ footer p {
 
 /* ======= MOBILE ======= */
 @media screen and (max-width: 768px) {
-     section.box > div {
-    width: 100% !important;
-  }
-
+   
     header nav {
       font-size: 13px;
       justify-items: center;
@@ -437,11 +434,12 @@ footer p {
       padding: 10px 15px; 
       
     }
-  
-    section > div {
+     section > div {
     width: 100%;
     margin: auto;
     } 
+  
+
 
     .container > div {
       padding-bottom: 20px;
