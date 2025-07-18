@@ -385,6 +385,9 @@ footer p {
 
 /* ======= MOBILE ======= */
 @media screen and (max-width: 768px) {
+     section.box > div {
+    width: 100% !important;
+  }
 
     header nav {
       font-size: 13px;
@@ -393,19 +396,30 @@ footer p {
       width: 100%;
      
     }
+      header nav ul {
+    flex-direction: column;
+    align-items: center;
+  }
 
     header nav ul {
      padding: 10px 0px;
     }
 
     header nav ul li {
-    padding:0px 0px ;
+    padding:10px 0px ;
     /* border: 1px solid gold; */
     }
 
-    header nav ul li a {
+    /* header nav ul li a {
       padding: 15px 10px;
-    }
+    } */
+
+    header nav ul li a {
+  padding: 10px 15px;
+  display: block;
+  width: 100%;
+  text-align: center;
+}
    
     
     .topo{
