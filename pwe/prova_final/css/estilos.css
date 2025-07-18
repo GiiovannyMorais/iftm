@@ -399,6 +399,9 @@ footer p {
     header nav ul li {
     padding:10px 0px ;
     text-align: center;
+    justify-items: center;
+    justify-content: center;
+    align-items: center;
     border: 1px solid gold;
     }
 
