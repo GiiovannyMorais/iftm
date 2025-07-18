@@ -379,37 +379,24 @@ footer p {
 @media screen and (max-width: 768px) {
    
     header nav {
-      
-      justify-items: center;
-      margin: auto;
-      width: 100%;
-      
-     
+    justify-items: center;
     }
+
       header nav ul {
     flex-direction: row;
-    align-items: center;
-    
-  }
+    }
 
     header nav ul {
      padding: 10px 0px;
     }
 
- 
-
-    /* header nav ul li a {
-      padding: 15px 10px;
-    } */
-
     header nav ul li a {
-  padding: 15px 15px;
-  font-size: 10px;
-  text-align: center;
-  display: block;
-  width: 100%;
-  
-}
+      padding: 10px 5px;
+      font-size: 15px;
+      text-align: center;
+      display: block;
+      width: 100%;
+    }
    
     
     .topo{
