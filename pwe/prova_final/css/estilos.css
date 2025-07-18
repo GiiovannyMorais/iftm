@@ -24,12 +24,7 @@ html {
   display: flex;
   flex-direction: row;
 }
-.topo > div {
-  width:60%;
-}
-.topo > nav {
-  width: 40%;
-}
+
 header nav ul {
   display: flex;
   flex-direction: row;
@@ -156,7 +151,7 @@ header nav ul li a:hover {
 
  /* ======= CONTAINERS ======= */
  .camiseta h3 {
-	color: white;
+	color: rgb(255, 255, 255);
 	text-align: center;
   padding-top: 20px;
   font-size: 25px;
@@ -182,19 +177,16 @@ header nav ul li a:hover {
 }
 
 .camiseta > div div {
-  background-color: #ffffff;
+  background-color: #1d1c1c;
   padding: 20px;
   border-radius: 8px;
 }
 .camiseta p,a {
 	text-align: center;
-	color: black;
+	color: rgb(255, 255, 255);
 	text-decoration: none;
 }
 
-.camiseta > div div:active{
-	text-decoration: underline;
-}
 .moletons {
   margin: 20px;
 
@@ -480,7 +472,7 @@ footer p {
       flex-direction: column;
     }
     .camiseta  p,a {
-      color: white;
+      color: rgb(255, 255, 255);
     }
 
     .camiseta > div div {
