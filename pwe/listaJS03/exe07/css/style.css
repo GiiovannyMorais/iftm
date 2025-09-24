@@ -1,0 +1,56 @@
+*{
+    box-sizing: border-box;
+    padding: 0px;
+    margin: 0px;
+}
+body {
+    display: flex;
+  
+}
+
+.container {
+    border: 2px solid black;
+    padding: 30px;
+    margin: 250px auto;
+
+}
+.container h1 {
+    text-align: center;
+    color: blue;
+    font-family: Verdana;
+    padding-bottom: 17px;
+
+}
+.formato{
+    
+    padding-bottom: 25px;  
+}
+.formato > div > label{
+    display: inline-block;
+    text-align: right;
+    width: 120px;  
+    margin-right: 3px;
+}
+#txtLogin {
+    width: 285px;
+}
+.formato > div {
+    display: flex;
+    align-items: center;
+    margin-bottom: 2px;
+
+}
+.formato > div > span {
+    color: red;
+    
+}
+.botoes {
+    text-align: center;
+}
+.botoes input {
+    padding: 2px 5px;
+    margin: 1px;
+   
+    
+    
+}

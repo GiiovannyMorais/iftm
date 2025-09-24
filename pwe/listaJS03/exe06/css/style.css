@@ -1,0 +1,21 @@
+*{
+    box-sizing: border-box;
+    padding: 0px;
+    margin: 0px;
+}
+
+.container {
+    padding: 10px;
+    
+}
+.calcula {
+    font-weight: bold;
+}
+.botoes  {
+    display: flex;
+    flex-direction: row;
+}
+.botoes input {
+    padding: 0px 10px ;
+    margin:  5px 15px;
+}
