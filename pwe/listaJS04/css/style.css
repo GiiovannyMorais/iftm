@@ -1,0 +1,46 @@
+*{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+
+.container{
+   display: flex;
+   text-align: center;
+   justify-content: center; 
+   align-items: center;  
+   padding-top: 20px;   
+}
+.botao{
+   margin-top: 5px;
+    color: white;
+    border-radius: 5px;
+    background-color: rgb(35, 136, 35);
+    padding: 5px;
+}
+.caixa {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    text-align: center;
+    
+}
+
+.caixa div {
+    border: 2px solid black;
+    padding: 40px  20px;
+    margin: 20px;
+    border-radius: 50px;
+}
+.caixa div p {
+    padding-bottom: 3px;
+}
+.nome {
+    padding: 10px 0px;
+    font-weight: bold;
+}
+
+.vitoria{
+    color: red;
+    text-align: center;
+}
