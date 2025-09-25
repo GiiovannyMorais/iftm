@@ -4,7 +4,8 @@ confirma = document.getElementById("txtConfirmaSenha");
 entrar = document.getElementById("btnEntrar");   
 limpar = document.getElementById("btnLimpar"); 
 
-entrar.addEventListener("click", function() {
+entrar.addEventListener("click", entrando) 
+   function entrando(){
     if (login.value === "" || senha.value === "" || confirma.value === "") {
         alert("Preencha todos os campos!");
         return;
@@ -23,11 +24,13 @@ entrar.addEventListener("click", function() {
     }
 
     alert("Login realizado!");
-});
+};
 
-limpar.addEventListener("click", function() {
+limpar.addEventListener("click", limpa)
+
+function limpa(){
     login.value = "";
     senha.value = "";
     confirma.value = "";
-});
+};
 
