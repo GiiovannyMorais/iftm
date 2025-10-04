@@ -4,6 +4,6 @@
 
 3 Ajustei o rodapé (footer) para ocupar toda a altura disponível (100%), garantindo que ele permaneça sempre ao final da página, mesmo quando o conteúdo do body for alterado.
 
-4 Adicionei bordas para facilitar a visualização dos elementos. Consultei a documentação do Bootstrap (https://getbootstrap.com/docs/5.3/utilities) para entender melhor como aplicar e modificar estilos no código.
+4 Adicionei bordas para facilitar a visualização dos elementos. Consultei a documentação do Bootstrap para entender melhor como aplicar e modificar estilos no código.
 
 
