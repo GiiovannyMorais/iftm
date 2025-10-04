@@ -1,5 +1,9 @@
-1.Criei um container com vh-100 e d-flex justify-content-center align-items-center para centralizar o conteúdo na tela.
+Criar uma galeria responsiva de produtos:
+- **2×2** em telas mobile
+- **3×3** em telas md+  
 
-2.Adicionei uma div interna com w-50 p-4 bg-white rounded para criar uma área central com padding e borda arredondada.
-
-3.Coloquei três parágrafos com mb-3 text-center bg-light rounded shadow para espaçamento, centralização e destaque visual.
+Cada produto é exibido usando:
+- `card` com `card-img-top` e `card-body`
+- Botão de ação com `btn`
+- Imagens padronizadas usando `ratio ratio-4x3`
+- Alturas alinhadas com `h-100` e `align-items-stretch` para cards uniformes
