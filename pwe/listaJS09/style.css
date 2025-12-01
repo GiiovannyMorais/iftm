@@ -1,0 +1,10 @@
+*{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+
+form {
+    padding-bottom: 10px;
+    font-size: large;  
+}
