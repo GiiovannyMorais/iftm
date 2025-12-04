@@ -1,0 +1,228 @@
+*{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+
+.velha,
+.botoesLogin,
+.textoLogin,
+.botaoJogar,
+.botoesVoltar,
+.infoJogadores,
+.VoltarJogo,
+#reset,
+.AtivarMusica,
+.status{
+  font-family: "Bevan", serif;
+  font-weight: 400;
+  font-style: normal;
+  text-align: center;
+}
+
+body{
+    background-color: rgb(43, 42, 42);
+    
+   
+}
+
+main {
+            
+    display: flex;          
+    justify-content: center; 
+    align-items: center;     
+}
+
+.container {
+    background: #8b7c7c;
+    padding: 10px 140px;
+    margin-top: 10px;
+    border-radius: 10px;
+}
+.form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    font-size: 25px;
+}
+.imgVeia{
+    margin: auto; 
+    width: 200px;
+    animation: mexerCabeca 1s infinite;
+    transform-origin: center; 
+}
+
+@keyframes mexerCabeca {
+    0% { transform: rotate(-20deg); }
+    50% { transform: rotate(20deg); }
+    100% { transform: rotate(-20deg); }
+}
+
+.textoLogin{
+    
+    padding: 10px;
+    border-radius: 10px;
+    
+}
+.botaoJogar {
+   color: rgb(227, 222, 222);
+    font-size: large;
+    border-radius: 10px;
+    padding: 15px 100px;
+    margin-top: 10px;
+    background-color: rgb(90, 79, 101);
+}
+.botoesLogin,
+.botoesVoltar{
+    color: rgb(227, 222, 222);
+    font-size: large;
+    border-radius: 10px;
+    padding: 15px 100px;
+    margin-top: 1px;
+    background-color: rgb(90, 79, 101);
+}
+.AtivarMusica {
+    color: rgb(227, 222, 222);
+    font-size: large;
+    border-radius: 10px;
+    padding: 15px;
+    margin: 10px;
+    background-color: rgb(165, 148, 179);
+}
+ a {
+   text-decoration: none;
+}
+.VoltarJogo {
+    color: rgb(227, 222, 222);
+    font-size: large;
+    border-radius: 10px;
+    padding: 10px;
+    margin: 20px;
+    background-color: rgb(90, 79, 101);
+    border: 3px solid rgb(79, 69, 69);
+}
+.VoltarJogo:hover{
+    background-color: rgb(78, 7, 97);
+}
+
+.botoesLogin,
+.textoLogin,
+.botaoJogar,
+.botoesVoltar,
+.AtivarMusica{
+   border: 3px solid rgb(79, 69, 69);
+   
+}
+
+.jogadores {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+.jogadores > div img {
+    padding-top: 15px;
+    width: 100px;
+}
+
+
+.botaoJogar,
+.botoesVoltar {
+    display: block;
+    margin: 20px auto; 
+}
+
+.botaoJogar:hover {
+    background-color: rgb(78, 7, 97);
+}
+.fraseVelha {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: auto;
+}
+
+.CriarCadastro {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    padding-top: 20px;
+}
+.separadores{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.infoJogadores{
+    background: #8b7f7f;
+    padding: 90px 90px;
+    border-radius: 10px;
+}
+
+.infoJogadores img{
+    width: 200px;
+}
+.tabuleiro {
+    background: #776363;
+    padding: 30px;
+    margin: 50px;
+    border-radius: 10px;
+    padding-bottom: 40px;
+    width: 400px;
+
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 5px;
+}
+
+.casa {
+    aspect-ratio: 1/1; /* mantém quadrado automaticamente */
+    background: rgb(213, 210, 210);
+    border: 2px solid #333;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 40px;
+    cursor: pointer;
+    user-select: none;
+}
+
+.casa:hover {
+    background: #e8e8e8;
+}
+
+.organiza {
+    display: flex;
+    flex-direction: column;
+
+}
+.status {
+    padding: 10px;
+    margin: 10px 30px;
+    border-radius: 5px;
+    background-color: #8b7f7f;
+}
+#reset {
+    padding: 10px;
+    margin: 10px 30px;
+    font-size: larger;
+    border-radius: 5px;
+    color: white;
+    border: none;
+    background-color: #80213a;
+    cursor: pointer;
+}
+
+#reset:hover {
+    background: #461b24;
+}
+
+
+
+
+
+
+
+
+
+

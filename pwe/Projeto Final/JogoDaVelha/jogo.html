@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="img/4.png">
+    <link rel="stylesheet" href="css/style.css">
+    <style>@import url('https://fonts.googleapis.com/css2?family=Bevan:ital@0;1&display=swap');</style>
+    
+    <title>Jogo da Velha</title>
+</head>
+<body>
+    <audio id="click" src="music/click.mp3"></audio>
+    <audio  id="SongVitoria" src="music/somVitoria.mp3"></audio>
+    <header> 
+        <a href="jogadores.html">
+            <input type="button" value=" ← voltar" class="VoltarJogo">
+        </a>
+         <button id="btnStart" class="AtivarMusica">🎵</button>
+         <audio  id="musica1" src="music/10. Special World.mp3"></audio>
+    
+    </header>
+
+    <main>
+       <div class="separadores">
+        <div class="infoJogadores">
+            
+            <img src="img/6.png" alt="" id="imgVitoria" >
+            
+            <div id="jogador1">
+                
+                
+            </div>
+
+          
+        </div>
+        </div>
+        <div class="organiza">
+
+        <div class="status" >    
+        <p id="status" ></p>
+    
+
+        </div> 
+        <button id="reset">Reiniciar</button>
+        
+        <div class="tabuleiro">
+            
+
+        <div class="casa" data-index="0"></div>
+        <div class="casa" data-index="1"></div>
+        <div class="casa" data-index="2"></div>
+
+        <div class="casa" data-index="3"></div>
+        <div class="casa" data-index="4"></div>
+        <div class="casa" data-index="5"></div>
+
+        <div class="casa" data-index="6"></div>
+        <div class="casa" data-index="7"></div>
+        <div class="casa" data-index="8"></div>
+        </div>
+        </div>
+        
+      
+        <div class="separadores">
+        <div class="infoJogadores">
+            <img src="img/4.png" alt="" id="imgVitoria2" >
+            <div id="jogador2">
+                
+                
+            </div>
+           
+        </div>
+
+        </div>
+    </main>
+    
+    <footer></footer>
+    
+    <script src="JS/jogo.js"></script>
+</body>
+</html>

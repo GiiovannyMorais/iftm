@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="icon" href="img/4.png">
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <style>@import url('https://fonts.googleapis.com/css2?family=Bevan:ital@0;1&display=swap');</style>
+
+    <title>Jogo da Velha | Jogadores</title>
+</head>
+<body>
+    <audio id="musica" src="music/49. Mii Maker - Editing a Mii (Gamepad).mp3"></audio>
+    <audio id="click" src="music/click.mp3"></audio>
+    <header>
+        <a href="login.html">
+            <input type="button" value=" ← voltar" class="VoltarJogo">
+        </a>
+        <button id="btnStart" class="AtivarMusica">🎵</button>
+         <audio  id="musica1" src="music/52. Miiverse - Welcome to Miiverse.mp3"></audio>
+    </header>
+
+    <main>
+        
+         <div class="container">
+            
+
+             <h2 class="velha">Nomeie seus jogadores</h2>
+         
+        <div class="jogadores">     
+         <div>
+            <img  src="img/6.png" >
+            <h3 class="velha">Velhinha 1</h3>
+            
+            <input type="text" id="urs1" class="textoLogin" placeholder="Jogador(a)">
+        </div>
+        <div>
+            <img  src="img/4.png">
+            <h3 class="velha">Velhinha 2</h3>
+            <input type="text" id="urs2" class="textoLogin" placeholder="Jogador(a)">
+        </div>
+        </div>  
+         
+        
+        <input type="button" value="Jogar" id="btnJogar" class="botaoJogar">
+        
+
+
+
+ 
+
+
+         </div>
+    </main>
+
+    <script src="JS/jogadores.js"></script>
+
+    <footer></footer>
+    
+</body>
+</html>

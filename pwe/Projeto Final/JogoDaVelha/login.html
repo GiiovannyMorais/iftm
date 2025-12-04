@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="icon" href="img/4.png">
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <style>@import url('https://fonts.googleapis.com/css2?family=Bevan:ital@0;1&display=swap');</style>
+    
+    <title>Login | Jogo da Velha</title>
+</head>
+<body>
+    <header>
+         <button id="btnStart" class="AtivarMusica">🎵</button>
+         <audio  id="musica1" src="music/49. Mii Maker - Editing a Mii (Gamepad).mp3"></audio>
+         <audio id="click" src="music/click.mp3"></audio>
+    </header>
+
+<main>
+
+    <div class="container">
+       
+        
+        <form class="form">
+
+            <h2 class="velha">Jogo da Velha</h2>
+            <img class="imgVeia" src="img/4.png">
+
+            
+            <input type="text" id="usr" class="textoLogin" placeholder="Usuário">
+
+            
+            <input type="password" id="pwd" class="textoLogin" placeholder="Senha">
+
+            <input type="button" value="Entrar" id="btnEntrar" class="botoesLogin">
+
+            <div class="CriarCadastro">
+            <p>Não é cadastrado?  <a href="cadastrar.html" value="Cadastre-se" id="btnCadastrar">Cadastre-se aqui!</a></p>
+            </div>
+            
+        </form>
+    </div>
+</main>
+
+<script src="JS/script.js"></script>
+
+</body>
+</html>
