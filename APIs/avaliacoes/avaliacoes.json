@@ -1,1 +1,28 @@
 
+[
+  {
+    "nome": "Giovanny Morais",
+    "depoimento": "O produto chegou antes do prazo e a qualidade é excelente. Recomendo bastante!",
+    "rating": 5
+  },
+  {
+    "nome": "Carlos",
+    "depoimento": "Produto bom, mas achei a embalagem um pouco frágil. No geral valeu a compra.",
+    "rating": 4
+  },
+  {
+    "nome": "Maria Fernanda ",
+    "depoimento": "Atendeu minhas expectativas. Funciona bem e o preço foi justo.",
+    "rating": 4
+  },
+  {
+    "nome": "Ricardo Mendes",
+    "depoimento": "Demorou um pouco para chegar, mas o produto é de boa qualidade.",
+    "rating": 3
+  },
+  {
+    "nome": "Juliana Costa",
+    "depoimento": "Gostei muito! Fácil de usar e exatamente como descrito no site.",
+    "rating": 5
+  }
+]
