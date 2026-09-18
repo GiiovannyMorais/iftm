@@ -1,0 +1,107 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Fira+Code:wght@400;600&family=Inter:wght@400;600;800&display=swap');
+
+/* Reset */
+* {
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    font-family: "Inter", sans-serif;
+    color: var(--color-text);
+    background-color: var(--bg-emphasis);
+}
+
+:root {
+    /* Espaçamentos */
+    --internal-space: 10px;
+
+    /* Espaçamentos */
+    --space-0: 0px;
+    --space-1: 4px;
+    --space-2: 8px;
+    --space-3: 12px;
+    --space-4: 16px;
+    --space-5: 24px;
+    --space-6: 32px;
+    --space-7: 48px;
+    --space-8: 64px;
+    --space-9: 80px;
+    --space-10: 96px;
+
+    /* Layout */
+    --max-width-container: 1250px;
+    --border-main-title: 25px;
+    --border-box: 10px;
+
+    /* Cores */
+    --bg-emphasis: rgb(241, 241, 241);
+    --color-text: #152660;
+
+    /* --color-text: blue; */
+    --color-buttons: #AF872D;
+
+    /* Tamanho das fontes*/
+    --font-subtitle2: 28px;
+    --font-paragraph: 16px;
+}
+
+body p {
+    font-size:var(--font-paragraph);
+}
+
+.container {
+    max-width: var(--max-width-container);
+    margin: auto;
+}
+
+.container h2{
+    margin-bottom: 16px;
+    font-size: 24px;
+    text-align: center;
+    margin-top:var(--space-3);
+    margin-bottom: var(--space-7);
+
+}
+
+
+.cursos-container {
+    display: grid;
+    grid-template-columns: repeat(3, 420px);
+    justify-content: center;
+    gap: 32px;
+    
+}
+
+.curso-grid {
+    background-color: var(--bg-emphasis);
+    border: 5px solid  var(--color-text);
+    padding: 32px;
+    border-radius: var(--border-box);   
+    text-align: center;
+}
+
+.curso-grid img {
+  width: 100px;
+  height: 100px;
+  object-fit: contain;
+}
+
+.curso-grid h3{
+    margin-bottom: var(--space-2);
+}
+
+.curso-grid:nth-child(1){
+background-color: rgb(255, 221, 159);
+}
+.curso-grid:nth-child(2){
+    background-color: rgb(172, 172, 255);
+}
+.curso-grid:nth-child(3){
+ background-color: rgb(255, 255, 158);
+}
+
+
+
