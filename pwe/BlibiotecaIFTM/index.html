@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BibliotecaIF</title>
+    <link rel="stylesheet" href="css/formulario.css">
+</head>
+<body>
+ <header>
+    <img src="img/ObterLogotipo.png" alt="" class="iftmLogo">   
+    </header>
+
+    <main>
+        <div class="formulario">
+            <div class="caixa">
+                <div class="intro">
+                        <span class="titulo">Preencha um ou mais campos e clique em Buscar.</span>
+
+                        <span class="dica-isbn">
+                            <button type="button" class="info" aria-label="Como preencher o formulário" aria-describedby="texto-formulario">i</button>
+                            <span id="texto-formulario" class="tooltip abaixo" role="tooltip">
+                                Preencha pelo menos um campo. Você pode combinar autor, título e ISBN para refinar a busca. Não precisa se preocupar com letras maiúsculas ou acentos, e o nome pode ser digitado apenas em parte (por exemplo, “machado”).
+                            </span>
+                        </span>
+                    </div>
+
+                   <form id="formulario">
+                        <label for="autor">Autor</label>
+                        <input type="text" id="autor" placeholder="Ex.: Machado de Assis">
+
+                        <label for="titulo">Título</label>
+                        <input type="text" id="titulo" placeholder="Ex.: Quincas Borba">
+
+                       <div class="rotulo">
+                            <label for="isbn">ISBN</label>
+
+                            <span class="dica-isbn">
+                                <button type="button" class="info" aria-label="O que é ISBN?" aria-describedby="texto-isbn">i</button>
+                                <span id="texto-isbn" class="tooltip" role="tooltip">
+                                    ISBN é o número de identificação internacional de um livro. Ele fica na contracapa, perto do código de barras, e tem 10 ou 13 dígitos.
+                                </span>
+                            </span>
+                        </div>
+
+                        <input type="text" id="isbn" placeholder="Ex.: 978-85-359-0277-5">
+
+                        <small> 10 ou 13 dígitos. Os hífens são opcionais.</small>
+
+                        <div class="botoes">
+                            <button type="submit" id="buscar" class="buscar">Buscar</button>
+                            <button type="button" id="limpar">Limpar</button>
+                            <button type="button" id="cancelar" hidden>Cancelar busca</button>
+                        </div>
+                    </form>
+
+                        <dialog id="dialogo-isbn" style="margin: auto; padding: 20px; max-width: 360px;">
+                            <h2>O que é ISBN?</h2>
+                            <p>
+                                ISBN é o número de identificação internacional de um livro.
+                                Ele fica na contracapa, perto do código de barras, e tem 10 ou 13 dígitos.
+                            </p>
+                            <button type="button" id="fechar-isbn">Entendi</button>
+                        </dialog>
+
+                                        <p id="mensagem" role="status"></p>
+                                        <ul id="resultados"></ul>
+                                    </div>
+                                </div>
+                            </main>
+
+    <footer>
+
+        <p>BibliotecaIF</p>
+    </footer>
+
+    <script src="/script.js"></script>
+</body>
+</html>

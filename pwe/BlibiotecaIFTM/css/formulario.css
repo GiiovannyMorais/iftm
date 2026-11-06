@@ -1,0 +1,232 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+body {
+    font-family: Arial, sans-serif;
+    background: #fcfdfc;
+    color: #222;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.titulo{
+    color: #014906;
+    font-weight: bold;
+}
+
+main {
+    flex: 1;
+    background-image: url("../img/fundoBanner.png");
+    background-size: cover;          /* a imagem preenche toda a área */
+    background-position: center;     /* mantém o centro da imagem visível */
+    background-repeat: no-repeat;    /* não repete a imagem */
+}
+
+header { 
+    background: #063e0a;  
+    color: white;
+    padding: 15px;
+    padding-left: 80px;
+}
+
+.iftmLogo  {   
+    width: 170px;
+}
+
+footer {
+    background-color: rgb(24, 23, 23);
+    align-items: center;
+    padding-left: 800px;
+    color: white;
+    padding: 15px; 
+}
+
+main {
+    flex: 1;
+}
+
+.formulario {
+    color: #014906;
+    display: flex;
+    justify-content: center;
+    padding: 30px 16px;
+  
+}
+
+.caixa {
+    width: 100%;
+    max-width: 480px;
+    background: #fefffd;
+    border: 1px solid #999;
+    border-radius: 8px;
+    padding: 24px;
+}
+
+.dica-isbn {
+    position: relative;         
+    display: inline-block;
+
+.intro {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.tooltip.abaixo {
+    left: auto;
+    right: 0;
+    top: 34px;
+    transform: none;
+}}
+
+.tooltip {
+    display: none;               
+    position: absolute;
+    left: 34px;
+    top: 50%;                       
+    transform: translateY(-50%);
+    width: 260px;
+    z-index: 1;
+    background: #eef4ff;
+    border: 1px solid #1f5fbf;
+    border-radius: 6px;
+    padding: 10px;
+    font-size: 0.85rem;
+    font-weight: normal;
+}
+
+.info {
+    width: 20px;
+    height: 20px;
+    padding: 0;               
+    border-radius: 50%;         
+    border: 1px solid #1f5fbf;
+    background: #fff;
+    color: #1f5fbf;
+    font-weight: bold;
+    font-size: 0.85rem;
+    line-height: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.info:hover {
+    background: #1f5fbf;
+    color: #fff;
+}
+
+.dica-isbn:hover .tooltip,
+.info:focus + .tooltip {
+    display: block;
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 8px;
+}
+
+label {
+    display: block;
+    font-weight: bold;
+    margin-top: 16px;
+}
+
+input {
+    width: 100%;
+    padding: 10px;
+    margin-top: 4px;
+    font-size: 1rem;
+    border: 1px solid #999;
+    border-radius: 6px;
+}
+
+input.invalido {
+    border: 2px solid #b3261e;
+}
+
+small {
+    color: #666;
+}
+
+.botoes {
+    display: flex;
+    gap: 10px;
+    margin-top: 20px;
+}
+
+button {
+    padding: 10px 16px;
+    font-size: 1rem;
+    border: 1px solid #999;
+    border-radius: 6px;
+    background: #fff;
+    cursor: pointer;
+}
+
+.rotulo {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    margin-top: 16px;
+}
+
+.rotulo label {
+    margin-top: 0;
+}
+
+
+
+#buscar {
+    flex: 1;
+    background: #1f5fbf;
+    color: #fff;
+    border-color: #1f5fbf;
+}
+#buscar:hover {
+    background-color: #14448e;
+}
+
+#limpar {
+    background-color: #ec372e;
+}
+
+#limpar:hover {
+    background-color: #a51e17;
+}
+
+
+button:disabled {
+    opacity: 0.5;
+    cursor: not-allowed;
+}
+
+#mensagem {
+    margin-top: 20px;
+    font-weight: bold;
+}
+
+#mensagem.erro {
+    color: #b3261e;
+}
+
+#mensagem.sucesso {
+    color: #1b6e3c;
+}
+
+#resultados {
+    list-style: none;
+    margin-top: 10px;
+}
+
+#resultados li {
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    padding: 10px;
+    margin-top: 8px;
+}
